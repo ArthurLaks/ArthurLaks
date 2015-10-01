@@ -1,20 +1,40 @@
+@import url("http://fonts.googleapis.com/css?family=garamond");
+body{
+    margin: 0.5in 1in 0.5in 1in;
+    font-family: garamond,Cambria;
+}
 h1{
     text-align:center;
+    font-size: 16px;
 }
 
+p,li{
+    font-size: 11px;
+}
+
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 12px;
+}
 .align-left{
     float:left;
+    text-align: left;
     width: 33.33333%;
-    text-align:left;
+
 }
 .align-center{
     float: left;
     width: 33.33333%;
     text-align: center;
+
 }
 .align-right{
     float:left;
-    width: 33.33333%;
+    width: 33.333333%;
     text-align: right;
 }
 
