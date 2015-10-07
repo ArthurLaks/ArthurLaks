@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Garamond");
+@import url("http://fonts.googleapis.com/css?family=EB%20Garamond");
 @media screen {
   body {
     width: 800px;
@@ -8,7 +8,7 @@
 }
 body{
 
-    font-family: Garamond,Cambria;
+    font-family: "EB Garamond",Cambria;
 }
 h1{
     text-align:center;
@@ -44,4 +44,3 @@ h3{
     width: 33.333333%;
     text-align: right;
 }
-
