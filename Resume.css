@@ -7,26 +7,29 @@
   }
 }
 body{
-
-    font-family: "EB Garamond",Cambria;
+    font-size: 12pt;
+    font-family: "EB Garamond",Helvetica,Cambria;
 }
 h1{
     text-align:center;
     font-size: 16pt;
+    font-weight: 700;
 }
 
 p,li{
-    font-size: 11pt;
+    margin:0;
 }
 
 
 h2{
-    font-size: 14pt;
+    font-weight: 600;
 }
 
 h3{
-    font-size: 12pt;
+  font-weight: 500;
 }
+
+
 .align-left{
     float:left;
     text-align: left;
@@ -43,4 +46,7 @@ h3{
     float:left;
     width: 33.333333%;
     text-align: right;
+}
+#last{
+  margin-bottom:1in;
 }
