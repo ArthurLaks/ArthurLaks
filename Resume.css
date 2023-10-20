@@ -9,13 +9,20 @@
 
 body {
     font-size: 12pt;
-    font-family: "EB Garamond",Helvetica,Cambria;
+    font-family: "EB Garamond";
 }
 
 h1 {
-    text-align:center;
+    text-align: center;
     font-size: 16pt;
     font-weight: 700;
+}
+
+.top-line {
+	display: flex;
+        font-size: 11pt;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 p,li {
@@ -25,31 +32,33 @@ p,li {
 
 h2 {
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 h3 {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 
 .align-left {
-    float:left;
     text-align: left;
     width: 33.33333%;
+    min-width: 0;
 
 }
 
 .align-center {
-    float: left;
     width: 33.33333%;
     text-align: center;
+    min-width: 0;
 
 }
 
 .align-right {
-    float:left;
     width: 33.333333%;
     text-align: right;
+    min-width: 0;
 }
 
 #last {
