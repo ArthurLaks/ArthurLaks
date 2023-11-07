@@ -1,24 +1,38 @@
-@import url("http://fonts.googleapis.com/css?family=EB%20Garamond");
+@import url("http://fonts.googleapis.com/css?family=Open%20Sans");
 @media screen {
   body {
-    width: 800px;
-    max-width: 80%;
+    width: 900px;
+    max-width: 90%;
     margin: 0 auto;
   }
 }
 
 body {
-    font-size: 12pt;
-    font-family: "EB Garamond";
+    font-size: 11pt;
+    font-family: "Open Sans";
 }
 
 h1 {
     text-align: center;
-    font-size: 16pt;
-    font-weight: 700;
+    font-size: 11pt;
+    font-weight: 800;
 }
 
-.top-line {
+h2,h3 {
+    text-align: center;
+    font-size: 11pt;
+    font-weight: 800;
+}
+
+h2,h3,h4 {
+    margin: 5px 0;
+}
+
+ul {
+    margin: 5px 0;
+}
+
+.align-left-right {
 	display: flex;
         font-size: 11pt;
 	justify-content: space-between;
@@ -30,41 +44,24 @@ p,li {
 }
 
 
-h2 {
-    font-weight: 600;
-    margin-bottom: 15px;
-}
 
-h3 {
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-
-.align-left {
+.left {
     text-align: left;
-    width: 33.33333%;
     min-width: 0;
 
 }
 
-.align-center {
-    width: 33.33333%;
+.center {
     text-align: center;
     min-width: 0;
 
 }
 
-.align-right {
-    width: 33.333333%;
+.right {
     text-align: right;
     min-width: 0;
 }
 
 #last {
     margin-bottom: 1in;
-}
-
-.faded {
-    opacity: 0.5;
 }
